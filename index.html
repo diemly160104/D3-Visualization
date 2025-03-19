@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổng hợp Biểu đồ</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./charts.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Doanh thu bán hàng theo Nhóm hàng</h2>
+    <div id="chart1"></div>
+
+    <h2>Doanh số bán hàng theo Nhóm hàng</h2>
+    <div id="chart2"></div>
+
+    <h2>Doanh số bán hàng theo Tháng</h2>
+    <div id="chart3"></div>
+
+    <h2>Doanh số bán hàng trung bình theo Ngày trong tuần</h2>
+    <div id="chart4"></div>
+
+    <h2>Doanh số bán hàng trung bình theo Ngày trong tháng</h2>
+    <div id="chart5"></div>
+
+    <h2>Doanh số bán hàng trung bình theo Khung giờ</h2>
+    <div id="chart6"></div>
+
+    <h2>Xác suất Bán hàng theo Nhóm hàng</h2>
+    <div id="chart7"></div>
+
+    <h2>Xác suất Bán hàng của Nhóm hàng theo Tháng</h2>
+    <div id="chart8"></div>
+
+    <h2>Xác suất Bán hàng của Mặt hàng theo Nhóm hàng</h2>
+    <div id="chart9"></div>
+
+    <h2>Xác suất Bán hàng của Mặt hàng theo Nhóm hàng theo từng Tháng</h2>
+    <div id="chart10"></div>
+
+    <h2>Phân phối lượt mua hàng</h2>
+    <div id="chart11"></div>
+
+    <h2>Phân phối mức chi trả của Khách hàng</h2>
+    <div id="chart12"></div>
+
+    
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        drawChart1("#chart1");
+        drawChart2("#chart2");
+        drawChart3("#chart3");
+        drawChart4("#chart4");
+        drawChart5("#chart5");
+        drawChart6("#chart6");
+        drawChart7("#chart7");
+        drawChart8("#chart8");
+        drawChart9("#chart9");
+        drawChart10("#chart10");
+        drawChart11("#chart11");
+        drawChart12("#chart12");
+    </script>
+</body>
+</html>
